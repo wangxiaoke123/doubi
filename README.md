@@ -110,6 +110,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 - 支持 一键安装 BBR
 - 支持 一键封禁 垃圾邮件(SMAP)/BT/PT
 
+- 对于安装依赖，如果出错就进入代码将依赖文件下载  再逐条执行代码即可
+
 #### 下载安装:
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/wangxiaoke123/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
