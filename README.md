@@ -384,13 +384,20 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 - 系统支持: CentOS6+ / Debian7+ / Ubuntu14+
 - 使用方法: https://doub.io/shell-jc1
 - 使用说明：启动：/etc/init.d/caddy start
-         - 停止：/etc/init.d/caddy stop
-         - 重启：/etc/init.d/caddy restart
-         - 查看状态：/etc/init.d/caddy status
-         - 查看Caddy启动日志：tail -f /tmp/caddy.log
-         - 安装目录：/usr/local/caddy
-         - Caddy配置文件位置：/usr/local/caddy/Caddyfile
-         - Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
+
+           停止：/etc/init.d/caddy stop
+           
+           重启：/etc/init.d/caddy restart
+           
+           查看状态：/etc/init.d/caddy status
+           
+           查看Caddy启动日志：tail -f /tmp/caddy.log
+           
+           安装目录：/usr/local/caddy
+           
+           Caddy配置文件位置：/usr/local/caddy/Caddyfile
+           
+           Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
 
 #### 下载安装:
 ``` bash
