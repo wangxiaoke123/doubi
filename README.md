@@ -398,6 +398,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
            Caddy配置文件位置：/usr/local/caddy/Caddyfile
            
            Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
+           
+           Caddy启动失败时 查看启动日志
 
 #### 下载安装:
 ``` bash
